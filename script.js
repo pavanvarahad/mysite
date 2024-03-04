@@ -7,6 +7,6 @@ gsap.to("#second h1",{
         scrub: 2,
         start: "top 0",
         end: "top -400%",
-        // pin: true,
+        pin: true,
     }
 })

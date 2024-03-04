@@ -4,18 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pavan Varahad</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        #first, #third {
+            height: 100%;
+            width: 100%;
+        }
+        #first {
+            background-color: rebeccapurple;
+        }
+        #second {
+            height: 100vh; /* Adjust height for better compatibility */
+            width: 100%;
+            background-color: aquamarine;
+        }
+        #second h1 {
+            font-size: 42vw; /* Adjust font size using em units */
+        }
+        #third {
+            background-color: royalblue;
+        }
+    </style>
 </head>
 <body>
-    <div id="first">
-
-    </div>
+    <div id="first"></div>
     <div id="second">
         <h1>PAVAN&nbsp;VARAHAD</h1>
     </div>
-    <div id="third">
-
-    </div>
+    <div id="third"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
