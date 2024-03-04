@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100% ;
+}
+#first{
+    height: 100%;
+    width: 100%;
+    background-color: rebeccapurple;
+}
+#third{
+    height: 100%;
+    width: 100%;
+    background-color: royalblue;
+}
+#second{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+}
+#second h1{
+    font-size: 82vh;
+}
+body{
+    overflow-x: hidden;
+}
